@@ -1,0 +1,269 @@
+body{
+    background-image: url("../protfolio/img/Zd3rxI.jpg");
+    background-size:cover;
+    width: 100%;
+}
+
+
+.nav-item{
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+.nav-item a{
+    color:black;
+    font-size: 30px;
+}
+.nav-item a:hover{ 
+    color: gainsboro;
+}
+
+
+.rounded{
+    width: 30%;
+    height: 50%;
+    border:white 5px solid;
+    border-radius: 150px;
+    margin-top: 100px;
+    background-color: #333;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 50px white;
+
+}
+.line{
+    border: black 2px solid;
+margin-left: 100px;
+margin-right: 100px;
+
+}
+
+
+
+
+
+
+
+.head{
+    width: 60%;
+}
+
+.head h1{
+    letter-spacing: 5px;
+    text-align: center;
+    margin-left: 30%;
+    font-size: 55px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.head h3{
+    letter-spacing: 5px;
+    text-align: center;
+    margin-left: 30%;
+    text-transform: capitalize;
+    width: 100%;
+    margin-top: 30px;
+}
+.head p{
+    letter-spacing: 3px;
+    text-align: center;
+    margin-left: 30%;
+    text-transform: capitalize;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.containes ul{
+margin-left: 37%;
+    width: 100%;
+
+}
+
+.containes ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+
+
+
+
+/* ......skill......... */
+
+
+
+
+
+
+
+ /* .center{
+    margin-top: 10%;
+    margin-left:10%;
+    
+}  */
+
+
+.center h1{
+    margin-top: 50px;
+    padding:10;
+    margin-left: 50px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+
+}
+ .skill-box{
+    box-sizing: border-box;
+    width:  100%;
+    margin: 30px 0;
+} 
+.skill-box h4{
+    text-transform: uppercase;
+    margin: 0 0 0 10px;
+    padding: 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+.skill-box h4:nth-child(2){
+    float: right;
+    position: relative;
+    top: -25px;
+    font-size: 20px;
+    padding-right:27%;
+    margin-left: 50%;
+}
+
+.skill{
+    background: whitesmoke;
+    padding: 2px;
+    /* box-sizing: border-box; */
+    border: 1px solid black;
+     width: 70%;
+    border-radius: 6px;
+    margin-left: 50px;
+    box-shadow: 0px 20px 50px rgba(1, 1, 10, .5);
+}
+.skill_level{
+    background-color:gold;
+    width: 100%;
+    height: 10px;
+    border-radius: 6px;
+}                        
+
+
+.line-2{
+border: black 2px solid;
+margin-top: 100px;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+
+.education{
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+.container h1{
+
+    text-transform: capitalize;
+    margin-left: 35%;
+    margin-top: 100px;
+
+}
+.form-colum{
+    padding: 50px;
+}
+
+.col{
+    padding: 15px;
+}
+
+
+.col input{
+width: 50%;
+margin-left: 250px;
+box-shadow: 0px 20px 50px rgba(1, 1, 10, .5);
+
+
+}
+
+.col textarea{
+
+width: 50%;
+margin-left: 250px;
+border-radius: 5px;
+box-shadow: 0px 20px 50px rgba(1, 1, 10, .5);
+
+}
+
+
+.btn{
+    margin-left: 40%;
+    text-decoration: none;
+    margin-top: -10px;
+    
+}
+
+.btn a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+
+}
+
+/* **********projects******* */
+
+.card{
+    box-shadow: 0px 20px 50px rgba(1, 1, 10, .5);
+    margin-top: 100px;
+    margin-left:10  px;
+}
+
+
+
+
+.card:hover{
+    box-shadow: 0px 20px 50px black;
+}
+
+.card-text a{
+    font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+}
+.card-text:hover a{
+    color:red;
+    text-decoration: none;
+}
+.down{
+    width: 100%;
+    height: 200px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and  (max-width: 360px){
+
+    body {
+        background-color: 
+        black;
+      }
+     
+    }
+
+    
+
+
